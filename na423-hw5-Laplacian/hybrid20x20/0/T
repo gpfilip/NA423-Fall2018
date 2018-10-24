@@ -39,13 +39,13 @@ boundaryField
     right
     {
         type            fixedValue;
-        value           uniform 0;
+        value           uniform 100;
         //type            zeroGradient;
     }
     top
     {
         type            fixedValue;
-        value           uniform 1;
+        value           uniform 0;
     }
 }
 

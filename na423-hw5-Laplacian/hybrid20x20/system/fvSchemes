@@ -23,8 +23,8 @@ ddtSchemes
 
 gradSchemes
 {
-    //default         leastSquares;
-    default         Gauss linear;//fourth;//edgeCellsLeastSquares;
+    default         leastSquares;
+    //default         Gauss linear;//fourth;//edgeCellsLeastSquares;
 //    grad(U)         cellLimited Gauss linear 1;
 }
 

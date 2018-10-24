@@ -61,8 +61,6 @@ interpolationScheme cell;
 fields
 (
     T
-    gradTy
-    gradTx
 );
 
 // Set sampling definition: choice of
@@ -94,9 +92,9 @@ sets
     {
         type        face;      
 
-        axis        y;
-        start       (0.5    0.0 0.00501);
-        end         (0.5    1.0 0.00501);
+        axis        x;
+        start       (0.0 0.5 0.0501);
+        end         (1.0 0.5 0.0501);
     }
 );
 
