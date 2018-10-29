@@ -1,0 +1,2 @@
+OBJECTS = \
+$(OBJECTS_DIR)/scalarTransportFoam.o
