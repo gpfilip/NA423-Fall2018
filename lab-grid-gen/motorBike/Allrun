@@ -11,7 +11,8 @@ runApplication surfaceFeatureExtract
 runApplication blockMesh
 
 runApplication decomposePar
-runParallel snappyHexMesh 4
+runApplication snappyHexMesh 
+#runParallel snappyHexMesh 4
 
 #- For non-parallel running
 #cp -r 0.org 0 > /dev/null 2>&1
